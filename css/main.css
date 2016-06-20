@@ -1,0 +1,28 @@
+body {
+	font-family: Oswald, sans-serif;
+}
+
+.navtitle {
+	margin: 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.questions {
+	text-align: center;
+}
+.questions > li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px 30px;
+	font-size: 1rem;
+	border-radius: 5px;
+	background-color: white;
+	opacity: 0.75;
+	border: solid black 2px;
+}
+
+hr {
+	width: 40rem;
+}
+
