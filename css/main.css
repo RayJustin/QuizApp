@@ -1,17 +1,24 @@
 body {
 	font-family: Oswald, sans-serif;
+	background-image: url(../images/Quiz_background.jpg);
 }
 
 .navtitle {
-	margin: 0;
+	margin: 0 auto 10px;
 	text-align: center;
-	margin-bottom: 10px;
+	letter-spacing: 5px;
+	background-color: lightgreen;
+	width: 300px;
+	border: solid black 2px;
+	opacity: 0.75;
+
 }
 
-.questions {
+.questionButtons {
 	text-align: center;
 }
-.questions > li {
+
+.questionButtons > li {
 	display: inline-block;
 	list-style: none;
 	padding: 10px 30px;
@@ -25,4 +32,59 @@ body {
 hr {
 	width: 40rem;
 }
+
+.allQuestions {
+	width: 700px;
+	height: 500px;
+	margin: 10px auto 10px;
+	opacity: 0.85;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.questions > p {
+	width: 500px;
+	text-align: center;
+	margin: 20px auto 0;
+	height: 75px;
+}
+
+.questions > h2 {
+	/* disply: none; */
+	margin: 0px 70px 10px;
+	padding-top: 20px;
+}
+
+.answers {
+	width: 470px;
+	height: 200px;
+	margin: 40px auto 0;
+	list-style: none;
+}
+
+.answers > li {
+	height: 30px;
+}
+.next, .restart {
+	float: right;
+	margin-right: 100px;
+	background-color: lightgreen;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.results {
+	font-size: 40px;
+}
+
+.questionButtons > li.correct {
+	background-color: lightgreen;
+}
+
+.questionButtons > li.incorrect {
+	background-color: red;
+}
+
+
+
 
